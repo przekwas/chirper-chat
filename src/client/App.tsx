@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as moment from 'moment';
 import * as socketIOClient from 'socket.io-client';
 
-const ENDPOINT = 'http://localhost:3000/';
+const ENDPOINT = 'https://stark-wave-67057.herokuapp.com/';
 
 const App = (props: AppProps) => {
 	const [name, setName] = React.useState<string>('');
